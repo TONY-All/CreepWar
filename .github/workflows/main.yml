@@ -30,4 +30,4 @@ jobs:
         name: "SwapGame"
         path: |
           build/libs/
-          */build/libs/
+          Generator/build/libs/

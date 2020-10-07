@@ -1,0 +1,17 @@
+players:
+    UUID:
+      kills:
+      games:
+      wins:
+      blockdata:
+        ==: MineData
+        xx: xx
+        xx2: xx
+    UUID2:
+      kill:
+      games:
+      wins:
+      blockdata:
+        ==: MineData
+        xx: xx
+        xx2: xx

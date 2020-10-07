@@ -1,0 +1,10 @@
+console:
+  error:
+    load: "§c读取玩家 {0} 的数据 {1} 时出现异常: 方块 {1} 不存在,已跳过"
+    mine: "§c传入挖掘数据有误: {0} 不是方块"
+  load:
+    plugin: "§b正在加载 CreepWar..."
+    datasource: "§正在加载数据来源..."
+    player:
+      pre: "§b正在读取 {0} 的数据..."
+      post: "§a成功读取 {0} 的数据"

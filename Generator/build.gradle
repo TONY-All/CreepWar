@@ -1,0 +1,48 @@
+plugins {
+    id 'java'
+    id 'io.izzel.taboolib'
+    id 'org.jetbrains.kotlin.jvm'
+}
+group = 'top.minicraft'
+version = '0.1.0'
+
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
+
+repositories {
+    maven {
+        name = "Aliyun"
+        url = 'https://maven.aliyun.com/repository/public/'
+    }
+    maven {
+        name = "Minecraft mixed"
+        url = "http://lss233.littleservice.cn/repositories/minecraft/"
+    }
+    mavenCentral()
+}
+
+taboolib {
+    tabooLibVersion = '5.36'
+    loaderVersion = '2.6'
+    classifier = null
+}
+
+dependencies {
+    compileOnly 'ink.ptms.core:v11600:11600:all'
+    compileOnly 'org.jetbrains.kotlin:kotlin-stdlib'
+    compileOnly fileTree(dir: 'libs', includes: ['*.jar'])
+}
+
+processResources {
+    from(sourceSets.main.resources.srcDirs) {
+        include 'plugin.yml'
+        expand  "name": "Generator",
+                "main": project.group + ".boot.PluginBoot",
+                "version": project.version,
+                "libVersion": taboolib.tabooLibVersion
+    }
+}
+
+compileKotlin {
+    kotlinOptions.jvmTarget = '1.8'
+}

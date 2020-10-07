@@ -1,0 +1,5 @@
+block-gen-chance:
+  overworld:
+    OAK_LOG: 10
+    STONE: 10
+    

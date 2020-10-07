@@ -1,0 +1,24 @@
+#,---.                   |     |
+#|    ,--.,---.,---.,---.| ,-. |,---.,--.
+#|    |   |---'|---'|---'| | | |,---||
+#'---'`   `---'`---''   `-`  `-``---^`
+lang:
+  - zh-CN
+  - en-US
+bungeecord:
+  enable: false
+
+# what do you want to use for data storage
+#
+# support: sql,yaml
+# default: yaml
+#
+# if sql used, please config database
+dataSource: "yaml"
+
+database:
+  host: localhost
+  port: 3306
+  username: root
+  password: root_password
+  database: CreepWar

@@ -3,7 +3,7 @@ plugins {
     id 'io.izzel.taboolib'
     id 'org.jetbrains.kotlin.jvm'
 }
-group = 'top.minicraft'
+group = 'top.minicraft.generator'
 version = '0.1.0'
 
 sourceCompatibility = '1.8'

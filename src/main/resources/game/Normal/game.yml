@@ -1,0 +1,19 @@
+name: Normal
+world: Normal
+nether: Normal_nether
+nether_spawn:
+  ==: Location
+  world:
+  x:
+  y:
+  z:
+
+area:
+  ==: GameArea
+  x1:
+  y1:
+  z1:
+  x2:
+  y2:
+  z2:
+

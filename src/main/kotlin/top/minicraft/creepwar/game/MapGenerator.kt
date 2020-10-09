@@ -16,6 +16,6 @@ object MapGenerator {
             it.block.type = Material.AIR
             reLocates.add(it.block)
         }
-
+        
     }
 }

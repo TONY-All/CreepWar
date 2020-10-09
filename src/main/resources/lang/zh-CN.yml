@@ -8,3 +8,9 @@ console:
     player:
       pre: "§b正在读取 {0} 的数据..."
       post: "§a成功读取 {0} 的数据"
+game:
+  event:
+    stand:
+      title: "§b正在起立..."
+      action: "§a还有 {0} 秒趴下"
+      creep: "§a你又趴下了"

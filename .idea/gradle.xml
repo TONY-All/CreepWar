@@ -10,6 +10,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/Generator" />
+            <option value="$PROJECT_DIR$/RandomEvent" />
           </set>
         </option>
       </GradleProjectSettings>

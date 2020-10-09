@@ -1,3 +1,4 @@
 rootProject.name = 'CreepWar'
 
 include(":Generator")
+include(":RandomEvent")

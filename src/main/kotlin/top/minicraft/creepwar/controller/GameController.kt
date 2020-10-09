@@ -2,8 +2,9 @@ package top.minicraft.creepwar.controller
 
 import top.minicraft.creepwar.game.Game
 
-class GameController {
+object GameController {
     val games = ArrayList<Game>()
+    val defaultGame: Game? = null
 
     init {
         loadGames()

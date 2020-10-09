@@ -7,6 +7,14 @@ lang:
   - en-US
 bungeecord:
   enable: false
+  defaultgame: default
+  lobby: hub
+  motd:
+    unsetted: "§c插件未配置"
+    waiting: "§a等待中"
+    full: "§c已满人"
+    started: "§6已开始"
+    resetting: "§b正在重置..."
 
 # what do you want to use for data storage
 #
@@ -14,7 +22,7 @@ bungeecord:
 # default: yaml
 #
 # if sql used, please config database
-dataSource: "yaml"
+dataSource: yaml
 
 database:
   host: localhost

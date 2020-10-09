@@ -1,5 +1,24 @@
 block-gen-chance:
   overworld:
-    OAK_LOG: 10
-    STONE: 10
-    
+    STONE: 700
+    LAPIS_ORE: 29
+    IRON_ORE: 92
+    OAK_LOG: 100
+    CRAFTING_TABLE: 1
+    HAY_BLOCK: 17
+    REDSTONE_ORE: 11
+    GOLD_ORE: 18
+    WATER: 10
+    COAL_ORE: 21
+    DIAMOND_ORE: 7
+    ENCHANTING_TABLE: 3
+    GRAVEL: 12
+    ANVIL: 3
+  nether:
+    WARPED_STEM: 44
+    BLACKSTONE: 27
+    NETHER_GOLD_ORE: 70
+    GLOWSTONE: 34
+    ANCIENT_DEBRIS: 10
+    DIAMOND_ORE: 22
+    NETHERRACK: 600
